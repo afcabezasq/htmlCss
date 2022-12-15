@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    width: 80vw;
+    height: 60vh;
+    background-color: gray;
+    margin: auto auto;
+    position: sticky;
+    margin: 12rem auto;
+    border-radius: 8rem;
+    border: 0.1rem solid black;    
+}
+
+.floating-box{
+    background-color: red;
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    position: relative;
+    bottom: 6rem;
+    border-radius: 3rem;
+    border: 0.1rem solid black;
+    
+}
+
+
+
+.parent{
+    border: 2px black dotted;
+    display: inline-block;
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two{
+    background-color: green;
+}

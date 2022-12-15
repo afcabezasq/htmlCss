@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    display: block;
+    width: 100vw;    
+    background-color: green;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    display: block;
+    height: 15%;
+}
+main{
+    display: block;
+    height: 70vh;
+}
+footer{
+    display: block;
+    height: 15%;
+}
+
+
+.vertical-menu{
+    display: inline-block;
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+}
+
+
+
+.main-content{
+    display: inline-block;
+    background-color: bisque;
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+}
+
+.content{
+    display: inline-block;
+    
+}
+
+
+.footer{
+    display: block;
+    width: 100vw;
+    background-color: red;
+    z-index: 5;
+}
+
+
